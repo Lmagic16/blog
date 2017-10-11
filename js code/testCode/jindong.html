@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Lmagic</title>
+</head>
+<style>
+body,html{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    color: #000000;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+thead{
+    background: #3d444c;
+    color: #ffffff;
+}
+td,th{
+    border: 1px solid #e1e1e1;
+    padding: 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+</style>
+<body>
+<table id="jsTrolley">
+    <thead><tr><th>名称</th><th>价格</th><th>操作</th></tr></thead>
+    <tbody>
+        <tr><td>产品1</td><td>10.00</td><td><a href="javascript:void(0);" id="a">删除</a></td></tr>
+        <tr><td>产品2</td><td>30.20</td><td><a href="javascript:void(0);">删除</a></td></tr>
+        <tr><td>产品3</td><td>20.50</td><td><a href="javascript:void(0);">删除</a></td></tr>
+    </tbody>
+    <tfoot><tr><th>总计</th><td colspan="2">60.70(3件商品)</td></tr></tfoot>
+</table>
+<script type="text/javascript">
+function add(items) {
+	var tbody = document.getElementsByTagName("tbody")[0];
+	var tdElement = "<td>"+items.name+"</td><td>"+items.price.toFixed(2)+"</td><td><a href='javascript:void(0);'>删除</a></td>";
+	var trElement = document.createElement("tr");
+	trElement.innerHTML = tdElement;
+	tbody.appendChild(trElement);
+	princeAll();
+}
+function princeAll(){
+	var alltr = document.getElementsByTagName("tbody")[0].getElementsByTagName("tr");
+	var total = 0;
+	for(var i=0;i<alltr.length;i++){
+		if(alltr[i]){
+			total += parseInt(alltr[i].getElementsByTagName("td")[1].innerHTML);
+		}
+	}
+	var text = total.toFixed(2) +"("+alltr.length+"件商品)"
+	document.getElementsByTagName("tfoot")[0].getElementsByTagName("td")[0].innerHTML = text;
+}
+
+function bind() {
+	var tbody = document.getElementsByTagName("tbody")[0];
+	var linkElement = document.getElementsByTagName("a");
+	Array.prototype.forEach.call(linkElement,function(ele){
+		ele.onclick = function(event){
+			tbody.removeChild(event.target.parentNode.parentNode);
+			princeAll();
+		}
+	});
+}
+add({name:"hao",price:18});
+bind();
+</script>
+</body>
+</html>

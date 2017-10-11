@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>单例模式</title>
+</head>
+<body>
+<div id="login">点我登陆</div>
+<script type="text/javascript">
+var inertiaSingleton = function(fn){
+	var obj;
+	return function(){
+		if(!obj){
+			obj = fn.apply(this,arguments); // 实际上obj = fn();也是可以，这里只是为了将fn函数中的this绑定到闭包函数中的this。
+			return obj;
+		}
+		return obj;
+	}
+};
+var creteSingleton = inertiaSingleton( // 函数作为参数传入
+	function (){
+		var div = document.createElement("div");
+		div.innerHTML = "我是登录浮窗1";
+		div.style.dispaly = "none";
+		document.body.appendChild(div);
+		return div;
+	}
+);
+document.getElementById("login").onclick = function(){
+	var logindiv = creteSingleton();
+	logindiv.style.dispaly = "block";
+}
+</script>
+</body>
+</html>

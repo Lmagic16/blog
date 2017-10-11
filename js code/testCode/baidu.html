@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <title>Lmagic</title>
+</head>
+<style>
+a {
+    color: #00bc9b;
+}
+</style>
+<body>
+<div id="jsContainer">
+这里会给出一段随机文本，可能包含一些链接，比如https://www.baidu.com，或者 www.baidu.com?from=onlineExam，如果出现链接文本，请给该链接文本加上链接标签，用户点击后能直接在新窗口中打开该链接。
+</div>
+<script type="text/javascript">
+function link(){
+	var containerDOM = document.getElementById('jsContainer');
+    var text = containerDOM.innerHTML;
+    var reg = /((?:http:\/\/|https:\/\/|www\.)(?:[a-zA-Z0-9.-]+(?:\?[a-zA-Z0-9&=]*)?))/g;
+	var newText = text.replace(reg,function(word){
+    	if(word.slice(0,3) === "www"){
+    		return '<a href="http://' + word + '" target="_blank">' + word + '</a>';
+    	}else{
+    		return '<a href="' + word + '" target="_blank">' + word + '</a>';
+    	}
+    });
+    containerDOM.innerHTML = newText;
+}
+link();
+/*function link(){
+    var container = document.getElementById('jsContainer');
+    var text = container.innerHTML;
+    var re = /(www\.(?:[a-zA-Z0-9.\-]+)(?:\?(?:[a-zA-Z0-9=&]*)))/g;
+    var re1 = /(https?:\/\/(?:[a-zA-Z0-9\-.]+)(?:[a-zA-Z0-9&=]*)?)/g;
+    var txt = text.replace(re1, `<a href="$1" target="_blank">$1</a>`);
+    txt = txt.replace(re, `<a href="http://$1 " target="_blank">$1</a>`);
+    container.innerHTML = txt;
+}
+link();*/
+/*function link(){
+	var containerDOM = document.getElementById('jsContainer');
+    var text = containerDOM.innerHTML;
+    var reg = /((?:http:\/\/|https:\/\/|www\.)(?:[a-zA-Z0-9.\-]+(?:\?[a-zA-Z0-9&=]*)?))/g;
+    var newText = text.replace(reg, `<a href="$1" target="_blank">` + '$1' + `</a>`);
+    containerDOM.innerHTML = newText;
+}
+link();*/
+</script>
+</body>
+</html>

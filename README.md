@@ -1,7 +1,7 @@
 # blog
 前端相关知识点整理
 
-## [前端JS](https://github.com/Lmagic16/blog/labels/前端JS)
+## [JS](https://github.com/Lmagic16/blog/labels/前端JS)
 1. [类型，值/引用复制，强制类型转换](https://github.com/Lmagic16/blog/issues/1)
 2. [作用域、闭包、模块](https://github.com/Lmagic16/blog/issues/2)
 3. [异步、回调、高阶函数](https://github.com/Lmagic16/blog/issues/3)
@@ -13,23 +13,32 @@
 9. [正则表达式](https://github.com/Lmagic16/blog/issues/9)
 10. [ES6](https://github.com/Lmagic16/blog/issues/10)
 
-## [前端HTML](https://github.com/Lmagic16/blog/labels/前端HTML)
+## [HTML](https://github.com/Lmagic16/blog/labels/前端HTML)
 
-## [前端CSS](https://github.com/Lmagic16/blog/labels/前端CSS)
+## [CSS](https://github.com/Lmagic16/blog/labels/前端CSS)
 1. [选择器、盒模型、布局、居中](https://github.com/Lmagic16/blog/issues/11)
 
+## [React](https://github.com/Lmagic16/blog/labels/前端React)
+1. [react学习记录](https://github.com/Lmagic16/blog/issues/24)
+2. [react-dnd的使用简介](https://github.com/Lmagic16/blog/issues/26)
 
-## [前端Vue](https://github.com/Lmagic16/blog/labels/前端Vue)
+## [Vue](https://github.com/Lmagic16/blog/labels/前端Vue)
 1. [MVVM数据双向绑定](https://github.com/Lmagic16/blog/issues/12)
 
-## [前端NodeJs](https://github.com/Lmagic16/blog/labels/前端NodeJs)
+## [NodeJs](https://github.com/Lmagic16/blog/labels/前端NodeJs)
 
-## [前端扩展](https://github.com/Lmagic16/blog/labels/前端扩展)
+## [TypeScript](https://github.com/Lmagic16/blog/labels/TypeScript)
+1. [TypeScript基础](https://github.com/Lmagic16/blog/issues/27)
+
+## [扩展](https://github.com/Lmagic16/blog/labels/前端扩展)
 1. [访问URL之后](https://github.com/Lmagic16/blog/issues/13)
 2. [垃圾回收、严格模式、标准与混杂模式](https://github.com/Lmagic16/blog/issues/14)
 3. [懒加载](https://github.com/Lmagic16/blog/issues/15)
 4. [SPA,MV*,路由,REST](https://github.com/Lmagic16/blog/issues/16)
 5. [V8性能]()
+
+## [工具](https://github.com/Lmagic16/blog/labels/工具)
+1. [状态管理 Mobx](https://github.com/Lmagic16/blog/issues/25)
 
 ## [算法](https://github.com/Lmagic16/blog/labels/算法)
 1. [数据结构JS版](https://github.com/Lmagic16/blog/issues/17)

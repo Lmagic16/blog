@@ -21,6 +21,7 @@
 ## [React](https://github.com/Lmagic16/blog/labels/前端React)
 1. [react学习记录](https://github.com/Lmagic16/blog/issues/24)
 2. [react-dnd的使用简介](https://github.com/Lmagic16/blog/issues/26)
+3. [React Diff 算法](https://github.com/Lmagic16/blog/issues/30)
 
 ## [Vue](https://github.com/Lmagic16/blog/labels/前端Vue)
 1. [MVVM数据双向绑定](https://github.com/Lmagic16/blog/issues/12)
@@ -30,12 +31,15 @@
 ## [TypeScript](https://github.com/Lmagic16/blog/labels/TypeScript)
 1. [TypeScript基础](https://github.com/Lmagic16/blog/issues/27)
 
+## [小程序](https://github.com/Lmagic16/blog/labels/小程序)
+1. [小程序大致原理](https://github.com/Lmagic16/blog/issues/31)
+
 ## [扩展](https://github.com/Lmagic16/blog/labels/前端扩展)
 1. [访问URL之后](https://github.com/Lmagic16/blog/issues/13)
 2. [垃圾回收、严格模式、标准与混杂模式](https://github.com/Lmagic16/blog/issues/14)
 3. [懒加载](https://github.com/Lmagic16/blog/issues/15)
 4. [SPA,MV*,路由,REST](https://github.com/Lmagic16/blog/issues/16)
-5. [V8性能]()
+5. [浏览器性能](https://github.com/Lmagic16/blog/issues/28)
 
 ## [工具](https://github.com/Lmagic16/blog/labels/工具)
 1. [状态管理 Mobx](https://github.com/Lmagic16/blog/issues/25)
@@ -53,4 +57,4 @@
 
 ## [基础](https://github.com/Lmagic16/blog/labels/基础)
 1. [git操作、linux命令]()
-2. [堆/栈、线程/进程]()
+2. [堆/栈、线程/进程](https://github.com/Lmagic16/blog/issues/29)

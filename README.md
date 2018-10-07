@@ -14,6 +14,7 @@
 10. [ES6](https://github.com/Lmagic16/blog/issues/10)
 
 ## [HTML](https://github.com/Lmagic16/blog/labels/前端HTML)
+1. [了解 canvas](https://github.com/Lmagic16/blog/issues/32)
 
 ## [CSS](https://github.com/Lmagic16/blog/labels/前端CSS)
 1. [选择器、盒模型、布局、居中](https://github.com/Lmagic16/blog/issues/11)

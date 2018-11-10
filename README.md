@@ -23,6 +23,7 @@
 1. [react学习记录](https://github.com/Lmagic16/blog/issues/24)
 2. [react-dnd的使用简介](https://github.com/Lmagic16/blog/issues/26)
 3. [React Diff 算法](https://github.com/Lmagic16/blog/issues/30)
+4. [Redux 学习记录](https://github.com/Lmagic16/blog/issues/33)
 
 ## [Vue](https://github.com/Lmagic16/blog/labels/前端Vue)
 1. [MVVM数据双向绑定](https://github.com/Lmagic16/blog/issues/12)

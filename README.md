@@ -15,6 +15,7 @@
 
 ## [HTML](https://github.com/Lmagic16/blog/labels/前端HTML)
 1. [了解 canvas](https://github.com/Lmagic16/blog/issues/32)
+2. [DOM 元素中的焦点管理](https://github.com/Lmagic16/blog/issues/34)
 
 ## [CSS](https://github.com/Lmagic16/blog/labels/前端CSS)
 1. [选择器、盒模型、布局、居中](https://github.com/Lmagic16/blog/issues/11)
@@ -60,3 +61,6 @@
 ## [基础](https://github.com/Lmagic16/blog/labels/基础)
 1. [git操作、linux命令]()
 2. [堆/栈、线程/进程](https://github.com/Lmagic16/blog/issues/29)
+
+## [后端](https://github.com/Lmagic16/blog/labels/后端)
+1. [Nginx 安装与配置规则](https://github.com/Lmagic16/blog/issues/35)

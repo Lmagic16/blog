@@ -64,6 +64,7 @@
 
 ## [后端](https://github.com/Lmagic16/blog/labels/后端)
 1. [Nginx 安装与配置规则](https://github.com/Lmagic16/blog/issues/35)
+2. [indexDB 学习笔记](https://github.com/Lmagic16/blog/issues/37)
 
 ## [书籍笔记](https://github.com/Lmagic16/blog/labels/书籍笔记)
 1. [薛兆丰经济学讲义](https://github.com/Lmagic16/blog/issues/36)

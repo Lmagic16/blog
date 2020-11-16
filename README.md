@@ -24,6 +24,7 @@
 1. [react学习记录](https://github.com/Lmagic16/blog/issues/24)
 2. [react-dnd的使用简介](https://github.com/Lmagic16/blog/issues/26)
 3. [React Diff 算法](https://github.com/Lmagic16/blog/issues/30)
+4. [从零开始一步步搭建 React+Koa SSR 应用](https://github.com/Lmagic16/blog/issues/38)
 
 ## [Vue](https://github.com/Lmagic16/blog/labels/前端Vue)
 1. [MVVM数据双向绑定](https://github.com/Lmagic16/blog/issues/12)
@@ -35,6 +36,9 @@
 
 ## [小程序](https://github.com/Lmagic16/blog/labels/小程序)
 1. [小程序大致原理](https://github.com/Lmagic16/blog/issues/31)
+
+## [测试]()
+1. [Jest 单测学习笔记](https://github.com/Lmagic16/blog/issues/41)
 
 ## [扩展](https://github.com/Lmagic16/blog/labels/前端扩展)
 1. [访问URL之后](https://github.com/Lmagic16/blog/issues/13)
@@ -59,12 +63,13 @@
 4. [TCP/IP](https://github.com/Lmagic16/blog/issues/23)
 
 ## [基础](https://github.com/Lmagic16/blog/labels/基础)
-1. [git操作、linux命令]()
+1. [git操作、linux命令](https://github.com/Lmagic16/blog/issues/39)
 2. [堆/栈、线程/进程](https://github.com/Lmagic16/blog/issues/29)
 
 ## [后端](https://github.com/Lmagic16/blog/labels/后端)
 1. [Nginx 安装与配置规则](https://github.com/Lmagic16/blog/issues/35)
 2. [indexDB 学习笔记](https://github.com/Lmagic16/blog/issues/37)
+3. [Go 学习笔记](https://github.com/Lmagic16/blog/issues/40)
 
 ## [书籍笔记](https://github.com/Lmagic16/blog/labels/书籍笔记)
 1. [薛兆丰经济学讲义](https://github.com/Lmagic16/blog/issues/36)
